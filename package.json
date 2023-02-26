@@ -1,0 +1,17 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  },
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "convert": "sass -w src/resources/scss/index.scss:src/public/css/index.css"
+  }
+}
